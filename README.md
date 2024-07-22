@@ -44,25 +44,48 @@
 <br>
 <!-- Profile Views -->
 <div align="center"> 
-<img src="https://komarev.com/ghpvc/?username=jairlucasbe&style=for-the-badge&logo=github&color=yellow" alt="Profile views"/>   
+	<img src="https://komarev.com/ghpvc/?username=jairlucasbe&style=for-the-badge&logo=github&color=yellow" alt="Profile views"/>   
 </div>
 <br>
 
+<!-- My Stack Technology -->
+<h2>Stack of Technologies</h2>
+
 ```mermaid
-journey
-	title Me studying for exams
-	section Exam is announced
-		I start studying: 1: Me
-		Make notes: 2: Me
-		Ask friend for help: 3: Me, Friend
-		We study togther: 5: Me, Friend
-	section Exam Day
-		Syllabys is incomplete: 2: Me
-		Give exam: 1: Me, Friend
-	section Result Declared
-		I passed the exam with destinction!: 5: Me
-		Friend barely gets passing marks: 2: Friend
+---
+title: Jair Lenin Lucas Benavides's Stack of Technologies
+---
+flowchart TD
+	RDB([Relational Database])
+	MySQL[(MySQL)]
+	PostgreSQL[(PostgreSQL)]
+
+	markdown["`This **is** _Markdown_`"]
+	newLines["`Line1
+	Line 2
+	Line 3`"]
+	RDB -- dominated --> MySQL
+	RDB === PostgreSQL
+```
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
+flowchart LR
+    id1(Start)-->id2(Stop)
+    style id1 fill:#f9f,stroke:#333,stroke-width:4px
+    style id2 fill:#FFF,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+
 ```
 
+```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
+flowchart LR
+    	A:::someclass --> B
+    	classDef someclass fill:#f96
+	A:::foo & B:::bar --> C:::foobar
+    	classDef foo stroke:#f00
+    	classDef bar stroke:#0f0
+    	classDef foobar stroke:#00f
+	B["fa:fa-twitter for peace"]
+```
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
