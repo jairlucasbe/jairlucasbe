@@ -1,11 +1,6 @@
 <div>
 <!-- Greetings -->
 <div align="center">
-	<style>
-		. {
-			margin: 100px;
-		}
-	</style>
 	<picture class="container">	
 		<source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=300&color=04BFBF&lineSpacing=10px&width=435&size=30&lines=Hello%F0%9F%91%8B%2C+I'm+Jair+Lucas">
   		<source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=300&color=025159&lineSpacing=10px&width=435&size=30&lines=Hello%F0%9F%91%8B%2C+I'm+Jair+Lucas">
