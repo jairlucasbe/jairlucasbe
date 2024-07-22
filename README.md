@@ -16,17 +16,16 @@
 
 <!-- Presentation -->
 <div align="center">
-  <div style="font-size: 16px;
-      font-weight: 700;
-      line-height: 30px;">
     <!-- dark mode -->
-    <p style="color: #04BFBF">
+    <p style="color: #04BFBF; 
+		font-size: 16px;
+      	font-weight: 700;
+      	line-height: 30px;">
       Systems Engineer specializing in backend development using&nbsp;
       <img src="https://img.shields.io/badge/java-ff0000?style=flat&logo=openjdk&logoColor=black&logoWidth=25" alt="java">
       &nbsp;and the &nbsp;  
       <img src="https://img.shields.io/badge/spring%20framework-708c30.svg?style=flat&logo=spring&logoColor=black&logoWidth=25" alt="Spring Framework">
     </p>
-  </div>
 </div>
 
 
