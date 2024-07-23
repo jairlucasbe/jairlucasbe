@@ -1,4 +1,4 @@
-<!-- header gift -->
+![image](https://github.com/user-attachments/assets/7ad7897e-2c52-4c1c-b198-f366ab9df7e7)<!-- header gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=8DE0F2" alt="footer" width="100%">
 
 <!-- Header -->
@@ -55,53 +55,40 @@
 ---
 title: Jair Lenin Lucas Benavides's Stack of Technologies
 ---
-flowchart TB
-	relational_database(["`**Relational Database**`"])
-	backend_development(["`**Backend Development**`"])
-	java(["`**Java**`"])
-	subgraph spring_framework["`**Spring Framework**`"]
-		direction LR
-		subgraph spring_data["`**Spring Data : JPA**`"]
-			direction LR
-			hibernate(["`**Hibernate**  `"]) -.-> jakarta_persistence(["`Jakarta Persistence`"])
-		end
-		subgraph spring_projects["`**Spring Projects**`"]
-			spring-security([Spring Security])
-			spring-boot([Spring Boot])
-			spring-web([Spring Web])
-		end
-		spring_data -.- spring_projects
+flowchart
+	subgraph spring["`**Spring Framework**`"]
+		direction TB
+		spring-framework(["`**Spring Framework**`"])
+		spring-framework === spring-data(["`**Spring Data**`"])
+		spring-framework === spring-security(["`**Spring Security**`"])
+		spring-framework === spring-boot(["`**Spring Boot**`"])
+		spring-framework === spring-web(["`**Spring Web**`"])
 	end
-	spring_data --> database
+	
+	subgraph spring_data["`**Spring Data : JPA**`"]
+		direction LR
+		hibernate(["`**Hibernate**  `"]) -.-> jakarta_persistence(["`Jakarta Persistence`"])
+	end
+
 	subgraph database["`**Database**`"]
 		direction TB
-		relational_database === mariadb[("`**MariaDB**`")]
+		relational_database(["`**Relational Database**`"])
+		relational_database --- mariadb[(MariaDB)]
 		relational_database === mysql[("`**MySQL**`")]
 		relational_database -.- postgresql[(PostgreSQL)]
 	end
-	backend_development ==> java
-	java ==> spring_framework
-```
 
-```mermaid
-%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
-flowchart LR
-    id1(Start)-->id2(Stop)
-    style id1 fill:#f9f,stroke:#333,stroke-width:4px
-    style id2 fill:#FFF,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-```
+	subgraph development_tools["`**Development Tools**`"]
+		direction TB
+		ides(["`**IDEs**`"])
+		git(["`**Git**`"])
+		ides -.- spring_tool_suite([Spring Tool Suite])
+		ides === visual_studio_code(["`**Visual Studio Code**`"])
+		ides -.- intellij_idea([Intellij IDEA])
+	end
 
-```mermaid
-%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
-flowchart LR
-    	A:::someclass --> B
-    	classDef someclass fill:#f96
-	A:::foo & B:::bar --> C:::foobar
-    	classDef foo stroke:#f00
-    	classDef bar stroke:#0f0
-    	classDef foobar stroke:#00f
-	B["fa:fa-twitter for peace"]
+	spring-data --> spring_data
+	spring_data --> database
 ```
-
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
