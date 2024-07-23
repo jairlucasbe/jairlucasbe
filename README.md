@@ -55,25 +55,40 @@
 ---
 title: Jair Lenin Lucas Benavides's Stack of Technologies
 ---
-flowchart TD
-	RDB([Relational Database])
-	MySQL[(MySQL)]
-	PostgreSQL[(PostgreSQL)]
-
-	markdown["`This **is** _Markdown_`"]
-	newLines["`Line1
-	Line 2
-	Line 3`"]
-	RDB -- dominated --> MySQL
-	RDB === PostgreSQL
+flowchart TB
+	relational_database(["`**Relational Database**`"])
+	backend_development(["`**Backend Development**`"])
+	java(["`**Java**`"])
+	subgraph spring_framework["`**Spring Framework**`"]
+		direction LR
+		subgraph spring_data["`**Spring Data : JPA**`"]
+			direction LR
+			hibernate(["`**Hibernate**  `"]) -.-> jakarta_persistence(["`Jakarta Persistence`"])
+		end
+		subgraph spring_projects["`**Spring Projects**`"]
+			spring-security([Spring Security])
+			spring-boot([Spring Boot])
+			spring-web([Spring Web])
+		end
+		spring_data -.- spring_projects
+	end
+	spring_data --> database
+	subgraph database["`**Database**`"]
+		direction TB
+		relational_database === mariadb[("`**MariaDB**`")]
+		relational_database === mysql[("`**MySQL**`")]
+		relational_database -.- postgresql[(PostgreSQL)]
+	end
+	backend_development ==> java
+	java ==> spring_framework
 ```
+
 ```mermaid
 %%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
 flowchart LR
     id1(Start)-->id2(Stop)
     style id1 fill:#f9f,stroke:#333,stroke-width:4px
     style id2 fill:#FFF,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-
 ```
 
 ```mermaid
@@ -87,5 +102,6 @@ flowchart LR
     	classDef foobar stroke:#00f
 	B["fa:fa-twitter for peace"]
 ```
+
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
