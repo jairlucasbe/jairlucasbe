@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7ad7897e-2c52-4c1c-b198-f366ab9df7e7)<!-- header gift -->
+<!-- header gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=8DE0F2" alt="footer" width="100%">
 
 <!-- Header -->
@@ -36,7 +36,7 @@
 <div>
 <h2>Professional Overview</h2>
 <h4>
-    I'm a Systems Engineer specializing in backend development using &nbsp; <img src="https://img.shields.io/badge/java%20%20-ff0000?style=plastic&logo=openjdk&logoColor=white&logoSize=30" alt="java"> &nbsp; and the &nbsp; <img src="https://img.shields.io/badge/spring%20framework%20%20-708c30.svg?style=plastic&logo=spring&logoColor=black&logoWidth=30" alt="Spring Framework">. Currently, I am focused on security topics with &nbsp; <img src="https://img.shields.io/badge/Spring%20security-708c30?style=plastic&logo=spring-security&logoColor=white" alt="Spring security" />, &nbsp; while continuing to expand my knowledge in advanced areas such as microservices architecture and other emerging methodologies.
+    I'm a Systems Engineer specializing in backend development using &nbsp; <img src="https://img.shields.io/badge/java%20%20-ff0000?style=plastic&logo=openjdk&logoColor=black&logoSize=30" alt="java"> &nbsp; and the &nbsp; <img src="https://img.shields.io/badge/spring%20framework%20%20-708c30.svg?style=plastic&logo=spring&logoColor=black&logoWidth=30" alt="Spring Framework">. Currently, I am focused on security topics with &nbsp; <img src="https://img.shields.io/badge/Spring%20security-708c30?style=plastic&logo=spring-security&logoColor=black" alt="Spring security" />, &nbsp; while continuing to expand my knowledge in advanced areas such as microservices architecture and other emerging methodologies.
 </h4>
 </div>
 
@@ -52,10 +52,8 @@
 <h2>Stack of Technologies</h2>
 
 ```mermaid
----
-title: Jair Lenin Lucas Benavides's Stack of Technologies
----
-flowchart
+%%{init: {"flowchart": {"defaultRenderer": "elk"}} }%%
+flowchart TB
 	subgraph spring["`**Spring Framework**`"]
 		direction TB
 		spring-framework(["`**Spring Framework**`"])
@@ -65,7 +63,7 @@ flowchart
 		spring-framework === spring-web(["`**Spring Web**`"])
 	end
 	
-	subgraph spring_data["`**Spring Data : JPA**`"]
+	subgraph spring_data_jpa["`**Spring Data : JPA**`"]
 		direction LR
 		hibernate(["`**Hibernate**  `"]) -.-> jakarta_persistence(["`Jakarta Persistence`"])
 	end
@@ -77,18 +75,35 @@ flowchart
 		relational_database === mysql[("`**MySQL**`")]
 		relational_database -.- postgresql[(PostgreSQL)]
 	end
-
-	subgraph development_tools["`**Development Tools**`"]
+	
+	subgraph integrante_development_environment["`**Integrated Development Environment**`"]
 		direction TB
 		ides(["`**IDEs**`"])
-		git(["`**Git**`"])
 		ides -.- spring_tool_suite([Spring Tool Suite])
 		ides === visual_studio_code(["`**Visual Studio Code**`"])
 		ides -.- intellij_idea([Intellij IDEA])
 	end
 
-	spring-data --> spring_data
-	spring_data --> database
+	development_tools(["`**Development Tools**`"])
+	backend_development(["`**Backend Development**`"])	
+	backend_development ==> development_tools
+	backend_development == JAVA SE ==> spring
+	development_tools ==> integrante_development_environment
+	development_tools ==> git(["`**Git**`"]):::gitclass
+	classDef gitclass stroke:#f54c26, fill:#f54c26, color:#000
+	spring-data --> spring_data_jpa
+	spring_data_jpa --> database
 ```
+<!-- Social Networks -->
+---
+<div align="center">
+   	<br/>
+	<a href="https://www.linkedin.com/in/👽" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A0A0B?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn Badge" /></a>
+ 	<a href="https://www.instagram.com/👽/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-0A0A0B?logo=instagram&style=for-the-badge&logoColor=white" alt="Instagram Badge" /></a>
+    	<a href="https://twitter.com/👽" target="_blank"><img src="https://img.shields.io/badge/-Twitter-0A0A0B?logo=twitter&style=for-the-badge&logoColor=white" alt="Twitter Badge" /></a>
+	<a href="https://t.me/👽" target="_blank"><img src="https://img.shields.io/badge/-Telegram-0A0A0B?logo=telegram&style=for-the-badge&logoColor=white" alt="Telegram Badge" /></a>
+	<a href="mailto:👽@protonmail.com" target="_blank"><img src="https://img.shields.io/badge/-ProtonMail-0A0A0B?logo=protonmail&style=for-the-badge&logoColor=white" alt="ProtonMail Badge" /></a>
+</div>
+
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
