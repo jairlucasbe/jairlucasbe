@@ -102,5 +102,21 @@ flowchart TB
 	spring_data_jpa --> database
 ```
 
+<div align="center">
+	<span align="center" width="50px">
+		<img width="50px" src="https://cdn.svgporn.com/logos/java.svg" alt="java-icon"/><br>
+		<strong>Java</strong>
+	</span>
+	<span align="center" width="50px">
+		<img width="50px" src="https://cdn.svgporn.com/logos/spring-icon.svg" alt="spring-icon"/><br>
+		<strong>Spring Framework</strong><br>
+	</span>
+	<span align="center" width="50px">
+		<img width="50px" src="https://cdn.svgporn.com/logos/java.svg" alt="java-icon"/><br>
+		<strong>Spring Security</strong><br>
+	</span>
+ </div>
+
+ 
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
