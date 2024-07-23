@@ -45,7 +45,7 @@
 
 <!-- Social Networks -->
 <div align="center"> 
-	<a href="https://www.linkedin.com/in/jair-lenin-lucas-benavides" target="_blank"><img src="https://img.shields.io/badge/linkedin-000000?style=for-the-badge&logo=linkedin&logoSize=30&logoColor=white" alt="linkedin"></a>  &nbsp;&nbsp;
+	<a href="https://www.linkedin.com/in/jair-lenin-lucas-benavides" target="blank"><img src="https://img.shields.io/badge/linkedin-000000?style=for-the-badge&logo=linkedin&logoSize=30&logoColor=white" alt="linkedin"></a>  &nbsp;&nbsp;
 	<a href="mailto:jairlucasbe@gmail.com"><img src="https://img.shields.io/badge/gmail-000000?style=for-the-badge&logo=gmail&logoSize=30&logoColor=white" alt="Gmail" /></a>  &nbsp; &nbsp;
 	<a href="#" target="_blank"><img src="https://img.shields.io/badge/stackoverflow-000000?style=for-the-badge&logo=stackoverflow&logoSize=30&logoColor=white" alt="stackoverflow"></a>  &nbsp;&nbsp;
 	<a href="https://www.hackerrank.com/profile/jairlucasbe" target="_blank"><img src="https://img.shields.io/badge/hackerrank-000000?style=for-the-badge&logo=hackerrank&logoSize=30&logoColor=white" alt="hackerrank"></a>  &nbsp;&nbsp;
