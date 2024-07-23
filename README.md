@@ -159,7 +159,7 @@ flowchart TB
 <!-- statistic graph -->
 <div align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&area=true&hide_border=true&theme=react&grid=false&bg_color=00000000">
+		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&area=true&hide_border=true&theme=react&grid=false&bg_color=00000000&title_color=79D0F2">
   		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true">
 		<img alt="github activity graph">
 	</picture>
