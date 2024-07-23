@@ -63,7 +63,7 @@
 <!-- Stack technology icons -->
  <div align="center">
 	 <picture>
-		<img height="80px" src="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon"/>
+		<img height="120px" src="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon"/>
 	 </picture>
 	 <br><br>
 	 <picture>
@@ -132,39 +132,38 @@ flowchart TB
 <!-- My Stack Technology -->
 <h2>Activity Sumary</h2>
 
+<!-- Stats -->
+<div align="center">
+	<!-- Github Simple stats -->
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jairlucasbe&theme=cobalt&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=00000000">
+  		<source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=jairlucasbe&theme=highcontrast&hide_border=true&border_radius=30&date_format=M%20j%5B%2C%20Y%5D">
+		<img alt="github simple stats">
+	</picture><br>
+	<!-- Github Colorized stats-->
+	<!--<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jairlucasbe&hide_border=true&hide=prs%2Cissues&theme=merko&bg_color=00000000&show_icons=true&count_private=true">
+  		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=jairlucasbe&hide=contribs,prs&hide_border=true&theme=chartreuse-dark&bg_color=00000000&show_icons=true&count_private=true">
+		<img alt="github simple stats">
+	</picture>-->
+	<!-- Github Languages -->
+	<!--
+  	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jairlucasbe&layout=compact&hide_border=true&theme=algolia&bg_color=00000000">
+  		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bastndev&layout=compact&hide_border=true&title_color=02D9F7FF&text_color=02D9F7FF&bg_color=0d1117&hide=python">
+		<img alt="github language">
+	</picture>-->
+	
+</div> 
+
 <!-- statistic graph -->
 <div align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&area=true&hide_border=true&theme=merko&grid=false&bg_color=00000000">
+		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&area=true&hide_border=true&theme=react&grid=false&bg_color=00000000">
   		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jairlucasbe&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true">
 		<img alt="github activity graph">
 	</picture>
 </div>
 
-<!-- Stats -->
-<div align="center">
-	<!-- Github Simple stats -->
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jairlucasbe&theme=merko&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=00000000">
-  		<source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=jairlucasbe&theme=highcontrast&hide_border=true&border_radius=30&date_format=M%20j%5B%2C%20Y%5D">
-		<img alt="github simple stats">
-	</picture><br>
-	<!-- Github Colorized stats-->
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jairlucasbe&hide_border=true&hide=prs%2Cissues&theme=merko&bg_color=00000000&show_icons=true&count_private=true">
-  		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=jairlucasbe&hide=contribs,prs&hide_border=true&theme=chartreuse-dark&bg_color=00000000&show_icons=true&count_private=true">
-		<img alt="github simple stats">
-	</picture>
-	<!-- Github Languages -->
-  	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jairlucasbe&layout=compact&hide_border=true&theme=merko&bg_color=00000000">
-  		<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=bastndev&layout=compact&hide_border=true&title_color=02D9F7FF&text_color=02D9F7FF&bg_color=0d1117&hide=python">
-		<img alt="github language">
-	</picture>
-	
-</div> 
-
-
- 
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
