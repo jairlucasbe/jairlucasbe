@@ -32,6 +32,7 @@
 </div>
 
 ---
+
 <!-- Presentations -->
 <div>
 <h2>Professional Overview</h2>
@@ -40,13 +41,19 @@
 </h4>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-<br>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"><br>
+
+<!-- Social Networks -->
+<div align="center"> 
+	<a href="https://www.linkedin.com/in/jair-lenin-lucas-benavides" target="_blank"><img src="https://img.shields.io/badge/linkedin-000000?style=for-the-badge&logo=linkedin&logoSize=30&logoColor=white" alt="linkedin"></a>  &nbsp; 
+	<a href="mailto:jairlucasbe@gmail.com"><img src="https://img.shields.io/badge/gmail-000000?style=for-the-badge&logo=gmail&logoSize=30&logoColor=white" alt="Gmail" /></a>  &nbsp; 
+	<a href="#" target="_blank"><img src="https://img.shields.io/badge/stackoverflow-000000?style=for-the-badge&logo=stackoverflow&logoSize=30&logoColor=white" alt="linkedin"></a>  &nbsp; 
+	<a href="https://medium.com/@jairlucasbe" target="_blank"><img src="https://img.shields.io/badge/medium-000000?style=for-the-badge&logo=medium&logoSize=30" alt="Medium" /></a> 
+</div><br>
 <!-- Profile Views -->
 <div align="center"> 
 	<img src="https://komarev.com/ghpvc/?username=jairlucasbe&style=for-the-badge&logo=github&color=yellow" alt="Profile views"/>   
 </div>
-<br>
 
 <!-- My Stack Technology -->
 <h2>Stack of Technologies</h2>
@@ -90,20 +97,10 @@ flowchart TB
 	backend_development == JAVA SE ==> spring
 	development_tools ==> integrante_development_environment
 	development_tools ==> git(["`**Git**`"]):::gitclass
-	classDef gitclass stroke:#f54c26, fill:#f54c26, color:#000
+	classDef gitclass stroke:#FFF, fill:#393939, color:#FFF
 	spring-data --> spring_data_jpa
 	spring_data_jpa --> database
 ```
-<!-- Social Networks -->
----
-<div align="center">
-   	<br/>
-	<a href="https://www.linkedin.com/in/👽" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A0A0B?logo=linkedin&style=for-the-badge&logoColor=white" alt="LinkedIn Badge" /></a>
- 	<a href="https://www.instagram.com/👽/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-0A0A0B?logo=instagram&style=for-the-badge&logoColor=white" alt="Instagram Badge" /></a>
-    	<a href="https://twitter.com/👽" target="_blank"><img src="https://img.shields.io/badge/-Twitter-0A0A0B?logo=twitter&style=for-the-badge&logoColor=white" alt="Twitter Badge" /></a>
-	<a href="https://t.me/👽" target="_blank"><img src="https://img.shields.io/badge/-Telegram-0A0A0B?logo=telegram&style=for-the-badge&logoColor=white" alt="Telegram Badge" /></a>
-	<a href="mailto:👽@protonmail.com" target="_blank"><img src="https://img.shields.io/badge/-ProtonMail-0A0A0B?logo=protonmail&style=for-the-badge&logoColor=white" alt="ProtonMail Badge" /></a>
-</div>
 
 <!-- footer gift -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
