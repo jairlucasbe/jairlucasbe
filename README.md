@@ -63,27 +63,34 @@
 <!-- Stack technology icons -->
  <div align="center">
 	 <picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon">
-  		<source media="(prefers-color-scheme: light)" srcset="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon">
-		<img height="120px" alt="github activity graph"/>
+		<source media="(prefers-color-scheme: dark)" srcset="https://cdn.svgporn.com/logos/java.svg">
+  		<source media="(prefers-color-scheme: light)" srcset="https://cdn.svgporn.com/logos/java.svg">
+		<img height="120px" alt="spring-icon"/>
 	 </picture>
 	 <br><br>
 	 <picture>
-		 <img height="60px" src="https://spring.io/img/projects/spring-framework.svg?v=2" alt="spring-icon"/>
+		<source media="(prefers-color-scheme: dark)" srcset="https://spring.io/img/projects/spring-framework.svg?v=2">
+  		<source media="(prefers-color-scheme: light)" srcset="https://spring.io/img/projects/spring-framework.svg?v=2">
+		<img height="60px" alt="spring-icon"/>
 	 </picture>
 	 &nbsp;&nbsp;
 	 <picture width="50px">
-		 <img height="60px" src="https://spring.io/img/projects/spring-boot.svg" alt="spring-boot"/>
+		<source media="(prefers-color-scheme: dark)" srcset="https://spring.io/img/projects/spring-boot.svg">
+  		<source media="(prefers-color-scheme: light)" srcset="https://spring.io/img/projects/spring-boot.svg">
+		<img height="60px" alt="spring-boot"/>
 	 </picture>
 	 &nbsp;&nbsp;
-	 <picture width="40px">
-		 <img height="60px" src="https://spring.io/img/projects/spring-data.svg" alt="spring-data"/>
+	 <picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://spring.io/img/projects/spring-data.svg">
+  		<source media="(prefers-color-scheme: light)" srcset="https://spring.io/img/projects/spring-data.svg">
+		<img height="60px" alt="spring-data"/>
 	 </picture>
 	 &nbsp;&nbsp;
 	 <picture width="50px">
-		 <img height="60px" src="https://spring.io/img/projects/spring-security.svg" alt="spring-security"/>
+		<source media="(prefers-color-scheme: dark)" srcset="https://spring.io/img/projects/spring-security.svg">
+  		<source media="(prefers-color-scheme: light)" srcset="https://spring.io/img/projects/spring-security.svg">
+		<img height="60px" alt="spring-security"/>
 	 </picture>
- 	
 </div>
 
 
