@@ -63,7 +63,9 @@
 <!-- Stack technology icons -->
  <div align="center">
 	 <picture>
-		<img height="120px" src="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon"/>
+		<source media="(prefers-color-scheme: dark)" srcset="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon">
+  		<source media="(prefers-color-scheme: light)" srcset="https://cdn.svgporn.com/logos/java.svg" alt="spring-icon">
+		<img height="120px" alt="github activity graph"/>
 	 </picture>
 	 <br><br>
 	 <picture>
