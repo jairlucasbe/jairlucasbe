@@ -174,5 +174,5 @@ flowchart TB
 	</picture>
 </div>
 
-<!-- footer gift -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">
+<!-- footer gift 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8DE0F2&height=80&section=footer" alt="footer" width="100%">-->
