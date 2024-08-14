@@ -130,7 +130,7 @@ flowchart TB
 	development_tools(["`**Development Tools**`"])
 	backend_development(["`**Backend Development**`"])	
 	backend_development ==> development_tools
-	backend_development == JAVA SE ==> spring
+	backend_development == JAVA EE ==> spring
 	development_tools ==> integrante_development_environment
 	development_tools ==> git(["`**Git**`"]):::gitclass
 	classDef gitclass stroke:#FFF, fill:#393939, color:#FFF
